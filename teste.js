@@ -1,14 +1,5 @@
-let fruta = "a"
-
-switch(fruta){
-    case "laranja":
-        console.log('Suco de laranja')
-        break
-    case "banana":
-        console.log('Vitamina de banana')
-        break
-    case "maça":
-        console.log('Suco de maça')
-    default:
-        console.log('Você quer água')
+let contadorDeVida = 0
+for (i = 1; i <= 10; i++){
+    contadorDeVida += 1
+    console.log('Você recuperou ' + contadorDeVida + '/10 pontos de Vida!');
 }
